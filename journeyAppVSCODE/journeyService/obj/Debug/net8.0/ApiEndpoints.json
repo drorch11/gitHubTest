@@ -1,0 +1,538 @@
+[
+  {
+    "ContainingType": "journeyService.Controllers.ExampleController",
+    "Method": "Get",
+    "RelativePath": "api/Example",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "journeyService.Controllers.howazitController",
+    "Method": "Get",
+    "RelativePath": "api/howazit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "journeyService.Controllers.howazitController",
+    "Method": "callhowazitEndPoint",
+    "RelativePath": "api/howazit",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ConnectionString",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "logID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "payload",
+        "Type": "journeyService.Models.howazit.howazitHeader",
+        "IsRequired": true
+      },
+      {
+        "Name": "serviceName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "journeyService.Models.howazit.howazitResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "journeyService.Controllers.howazitController",
+    "Method": "callhowazitIllegalPayLoad",
+    "RelativePath": "api/howazit",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ConnectionString",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "logID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ErrorMsg",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "journeyService.Models.howazit.howazitResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "journeyService.Controllers.howazitController",
+    "Method": "DeliveryCarAvis",
+    "RelativePath": "api/howazit/DeliveryCarAvis/{codeAction}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeAction",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "_howazitorderAvis",
+        "Type": "journeyService.Models.howazit.howazitorderAvis",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "journeyService.Controllers.howazitController",
+    "Method": "DeliveryCarUmi",
+    "RelativePath": "api/howazit/DeliveryCarUmi/{codeAction}/{OrderNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeAction",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "OrderNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "journeyService.Controllers.howazitController",
+    "Method": "Satisfaction",
+    "RelativePath": "api/howazit/Satisfaction/{codeAction}/{Lakuah}/{MisparErua}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeAction",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Lakuah",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "MisparErua",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "journeyService.Controllers.hubspotImportController",
+    "Method": "callHubSpotEndPoint",
+    "RelativePath": "api/hubspotImport",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ConnectionString",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "urlApi",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tokenApi",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "logID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "filename",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "JsonFileTemplateStr",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "HubSpotImportPath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "journeyService.Models.hubspot.hubspotResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "journeyService.Controllers.hubspotImportController",
+    "Method": "GetElementestimatedLineCount",
+    "RelativePath": "api/hubspotImport",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "json",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.UInt64",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "journeyService.Controllers.hubspotImportController",
+    "Method": "ImportTafnitCsvFile",
+    "RelativePath": "api/hubspotImport/ImportTafnitCsvFile/{codeAction}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeAction",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "journeyService.Controllers.tafnitController",
+    "Method": "IfAllowedSendMsgForIskaEndPoint",
+    "RelativePath": "api/tafnit",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ConnectionString",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReqeustUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "payload",
+        "Type": "journeyService.Models.leasing.tafnitRenewDealRoute",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "journeyService.Models.leasing.IfAllowedSendMsgForIskaResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "journeyService.Controllers.tafnitController",
+    "Method": "SetSignStepMasaMlkLeasingEndPoint",
+    "RelativePath": "api/tafnit",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ConnectionString",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReqeustUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "payload",
+        "Type": "journeyService.Models.leasing.tafnitRenewDealRoute",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "journeyService.Models.leasing.SetSignStepMasaMlkLeasingResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "journeyService.Controllers.tafnitController",
+    "Method": "IfAllowedSendMsgForIska",
+    "RelativePath": "api/tafnit/IfAllowedSendMsgForIska/{LogIdInforU}/{HpNo}/{DealNo}/{Step}/{LogIdLeasingContractRenew}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LogIdInforU",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "hpno",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dealno",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "step",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "LogIdLeasingContractRenew",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "journeyService.Controllers.tafnitController",
+    "Method": "SetSignStepMasaMlkLeasing",
+    "RelativePath": "api/tafnit/SetSignStepMasaMlkLeasing/{LogIdInforU}/{HpNo}/{DealNo}/{Step}/{LogIdLeasingContractRenew}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "LogIdInforU",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "hpno",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dealno",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "step",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "LogIdLeasingContractRenew",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "journeyService.Controllers.V1.flycardServController",
+    "Method": "populationForPaymentReminder",
+    "RelativePath": "api/v1/flycardServs/populationForPaymentReminder/{codeAction}/{maxDays}/{LogIdInforU}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeAction",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "maxDays",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "LogIdInforU",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "journeyService.Controllers.V1.flycardServController",
+    "Method": "populationForReminder",
+    "RelativePath": "api/v1/flycardServs/populationForReminder/{codeAction}/{maxDays}/{LogIdInforU}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeAction",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "maxDays",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "LogIdInforU",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "journeyService.Controllers.V1.InforUController",
+    "Method": "GetUnsubscribeList",
+    "RelativePath": "api/v1/InforUServ/GetUnsubscribeList/{codeaction}/{propertyType}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeAction",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "propertyType",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "journeyService.Controllers.V1.tafnitController",
+    "Method": "RemoveDivurByPhoneOrEmail",
+    "RelativePath": "api/v1/tafnitServ/RemoveDivurByPhoneOrEmail/{codeaction}/{propertyType}/{propertyValue}/{logID_HubSpotImportLog}/{tafnitUnit}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeAction",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "propertyType",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "propertyValue",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "logID_HubSpotImportLog",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tafnitUnit",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

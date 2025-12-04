@@ -1,0 +1,165 @@
+{
+  "name": "templatefile.xlsx",
+  "dateFormat": "YEAR_MONTH_DAY",
+  "files": [
+    {
+      "fileName": "templatefile.xlsx",
+      "fileFormat": "SPREADSHEET",
+      "fileImportPage": {
+        "hasHeader": true,
+        "columnMappings": [
+          {
+            "columnObjectTypeId": "2-130920180",
+            "columnName": "client_id",
+            "propertyName": "client_id",
+            "columnType": "HUBSPOT_ALTERNATE_ID"
+          },
+          {
+            "columnObjectTypeId": "2-130920180",
+            "columnName": "firstname",
+            "propertyName": "firstname"
+          },
+          {
+            "columnObjectTypeId": "2-130920180",
+            "columnName": "lastname",
+            "propertyName": "lastname"
+          },
+          {
+            "columnObjectTypeId": "0-1",
+            "columnName": "allow_divur",
+            "propertyName": "allow_divur"
+          },
+          {
+            "columnObjectTypeId": "0-1",
+            "columnName": "email",
+            "propertyName": "email",
+            "columnType": "HUBSPOT_ALTERNATE_ID"
+          },
+          {
+            "columnObjectTypeId": "2-130920180",
+            "columnName": "phone_number",
+            "propertyName": "phone_number"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "manufacture_year",
+            "propertyName": "manufacture_year"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "newregistrationplate",
+            "propertyName": "newregistrationplate"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "car_model",
+            "propertyName": "car_model"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "manufacturer",
+            "propertyName": "manufacturer"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "last_treatment_date",
+            "propertyName": "last_treatment_date"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "car_delivery_date",
+            "propertyName": "car_delivery_date"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "kod_sales_branch",
+            "propertyName": "kod_sales_branch"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "sales_branch",
+            "propertyName": "sales_branch"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "last_garage_code",
+            "propertyName": "last_garage_code"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "last_garage_name",
+            "propertyName": "last_garage_name"
+          },
+          {
+            "columnName": "association_lable",
+            "columnType": "FLEXIBLE_ASSOCIATION_LABEL",
+            "columnObjectTypeId": "2-124289527",
+            "toColumnObjectTypeId": "2-130920180"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "entrydate",
+            "propertyName": "entrydate"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "dateidkunbaalu",
+            "propertyName": "dateidkunbaalu"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "umi_uid",
+            "propertyName": "umi_uid",
+            "columnType": "HUBSPOT_ALTERNATE_ID"
+          },
+          {
+            "columnName": "contact_association_lable",
+            "columnType": "FLEXIBLE_ASSOCIATION_LABEL",
+            "columnObjectTypeId": "2-124289527",
+            "toColumnObjectTypeId": "0-1"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "date_car_test",
+            "propertyName": "date_car_test"
+          },
+          {
+            "columnObjectTypeId": "2-130920180",
+            "columnName": "allow_divur_person",
+            "propertyName": "allow_divur_person"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "ops__tafnit_unit",
+            "propertyName": "ops__tafnit_unit"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "kodmachzormechira",
+            "propertyName": "kodmachzormechira"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "kmmechira",
+            "propertyName": "kmmechira"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "kod_customerclassification",
+            "propertyName": "kod_customerclassification"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "customerclassification",
+            "propertyName": "customerclassification"
+          },
+          {
+            "columnObjectTypeId": "2-124289527",
+            "columnName": "agreementdate",
+            "propertyName": "agreementdate"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\JwtAuto\journeyService</_PublishTargetUrl>
+    <History>False|2025-10-26T06:50:47.4259769Z||;False|2025-10-26T08:48:30.3076552+02:00||;True|2025-10-19T16:07:21.8817869+03:00||;True|2025-10-19T16:05:50.2341711+03:00||;False|2024-05-19T12:39:46.3637287+03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

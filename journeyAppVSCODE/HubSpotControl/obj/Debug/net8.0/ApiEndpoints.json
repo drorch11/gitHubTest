@@ -1,0 +1,144 @@
+[
+  {
+    "ContainingType": "HubSpotControl.Controllers.V1.AssocaitedServControl",
+    "Method": "ArchiveInActiveDataList",
+    "RelativePath": "api/v1/AssocaitedServs/ArchiveInActiveDataList/{from_object}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from_object",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HubSpotControl.Controllers.V1.AssocaitedServControl",
+    "Method": "AssociatedDeleteAllFromContactList",
+    "RelativePath": "api/v1/AssocaitedServs/AssociatedDeleteAllFromContactList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from_object",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "to_object",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HubSpotControl.Controllers.V1.AssocaitedServControl",
+    "Method": "DeleteDuplicateContactList",
+    "RelativePath": "api/v1/AssocaitedServs/DeleteDuplicateContactList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from_object",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "to_object",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HubSpotControl.Controllers.V1.AssocaitedServControl",
+    "Method": "GetAssociationsList",
+    "RelativePath": "api/v1/AssocaitedServs/GetAssociationsList/{from_object}/{to_object}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from_object",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "to_object",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HubSpotControl.Controllers.V1.AssocaitedServControl",
+    "Method": "MissMatchContactList",
+    "RelativePath": "api/v1/AssocaitedServs/MissMatchContactList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from_object",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "to_object",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HubSpotControl.Controllers.V1.AssocaitedServControl",
+    "Method": "ReadDataList",
+    "RelativePath": "api/v1/AssocaitedServs/ReadDataList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from_object",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "to_object",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HubSpotControl.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HubSpotControl.WeatherForecast, HubSpotControl, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

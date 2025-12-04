@@ -1,0 +1,2636 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "DnsClient/1.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/DnsClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/DnsClient.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.1.0"
+        },
+        "compile": {
+          "lib/net8.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/DocumentFormat.OpenXml.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Packaging": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/DocumentFormat.OpenXml.Framework.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Client/7.0.2": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Extensions.ApiDescription.Client.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Client.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Client.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Client.targets": {}
+        }
+      },
+      "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/8.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.ObjectPool.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.OpenApi/1.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.Win32.Registry/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NSwag.ApiDescription.Client/13.18.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Client": "6.0.3",
+          "NSwag.MSBuild": "13.18.2"
+        },
+        "build": {
+          "build/NSwag.ApiDescription.Client.props": {},
+          "build/NSwag.ApiDescription.Client.targets": {}
+        }
+      },
+      "NSwag.MSBuild/13.18.2": {
+        "type": "package",
+        "build": {
+          "build/NSwag.MSBuild.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildCrossTargeting/NSwag.MSBuild.props": {}
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
+          "Swashbuckle.AspNetCore.Swagger": "6.4.0",
+          "Swashbuckle.AspNetCore.SwaggerGen": "6.4.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.4.0"
+        },
+        "build": {
+          "build/Swashbuckle.AspNetCore.props": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "compile": {
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "6.4.0"
+        },
+        "compile": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/6.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "System.Data.Odbc/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Data.Odbc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Data.Odbc.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/freebsd/lib/net8.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "freebsd"
+          },
+          "runtimes/illumos/lib/net8.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "illumos"
+          },
+          "runtimes/ios/lib/net8.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "ios"
+          },
+          "runtimes/linux/lib/net8.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/net8.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/solaris/lib/net8.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "solaris"
+          },
+          "runtimes/tvos/lib/net8.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "tvos"
+          },
+          "runtimes/win/lib/net8.0/System.Data.Odbc.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.8.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0"
+        },
+        "compile": {
+          "ref/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.IO.Packaging/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Packaging.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.Pkcs/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.Xml/8.0.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.Pkcs": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/System.Security.Cryptography.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Security.Cryptography.Xml.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp3.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.ServiceModel.Http/8.1.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ServiceModel.Primitives": "8.1.2"
+        },
+        "compile": {
+          "ref/net8.0/System.ServiceModel.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.ServiceModel.Http.dll": {
+            "related": ".pdb"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/System.ServiceModel.Http.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/System.ServiceModel.Http.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/System.ServiceModel.Http.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/System.ServiceModel.Http.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/System.ServiceModel.Http.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/System.ServiceModel.Http.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/System.ServiceModel.Http.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/System.ServiceModel.Http.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/System.ServiceModel.Http.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/System.ServiceModel.Http.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/System.ServiceModel.Http.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/System.ServiceModel.Http.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/System.ServiceModel.Http.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.ServiceModel.NetFramingBase/8.1.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ServiceModel.Primitives": "8.1.2"
+        },
+        "compile": {
+          "ref/net8.0/System.ServiceModel.NetFramingBase.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.ServiceModel.NetFramingBase.dll": {
+            "related": ".pdb"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/System.ServiceModel.NetFramingBase.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.ServiceModel.NetTcp/8.1.2": {
+        "type": "package",
+        "dependencies": {
+          "System.ServiceModel.NetFramingBase": "8.1.2",
+          "System.ServiceModel.Primitives": "8.1.2"
+        },
+        "compile": {
+          "ref/net8.0/System.ServiceModel.NetTcp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.ServiceModel.NetTcp.dll": {
+            "related": ".pdb"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/System.ServiceModel.NetTcp.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.ServiceModel.Primitives/8.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.ObjectPool": "8.0.10",
+          "System.Security.Cryptography.Xml": "8.0.2"
+        },
+        "compile": {
+          "ref/net8.0/System.ServiceModel.Duplex.dll": {},
+          "ref/net8.0/System.ServiceModel.Primitives.dll": {},
+          "ref/net8.0/System.ServiceModel.Security.dll": {},
+          "ref/net8.0/System.ServiceModel.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.ServiceModel.Duplex.dll": {
+            "related": ".pdb"
+          },
+          "lib/net8.0/System.ServiceModel.Primitives.dll": {
+            "related": ".pdb"
+          },
+          "lib/net8.0/System.ServiceModel.Security.dll": {
+            "related": ".pdb"
+          },
+          "lib/net8.0/System.ServiceModel.dll": {
+            "related": ".Duplex.pdb;.pdb;.Primitives.pdb;.Security.pdb"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/System.ServiceModel.Primitives.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DnsClient/1.8.0": {
+      "sha512": "RRwtaCXkXWsx0mmsReGDqCbRLtItfUbkRJlet1FpdciVhyMGKcPd57T1+8Jki9ojHlq9fntVhXQroOOgRak8DQ==",
+      "type": "package",
+      "path": "dnsclient/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "dnsclient.1.8.0.nupkg.sha512",
+        "dnsclient.nuspec",
+        "icon.png",
+        "lib/net472/DnsClient.dll",
+        "lib/net472/DnsClient.xml",
+        "lib/net6.0/DnsClient.dll",
+        "lib/net6.0/DnsClient.xml",
+        "lib/net8.0/DnsClient.dll",
+        "lib/net8.0/DnsClient.xml",
+        "lib/netstandard2.0/DnsClient.dll",
+        "lib/netstandard2.0/DnsClient.xml",
+        "lib/netstandard2.1/DnsClient.dll",
+        "lib/netstandard2.1/DnsClient.xml"
+      ]
+    },
+    "DocumentFormat.OpenXml/3.1.0": {
+      "sha512": "J+GtIzVJpj6Wbhc2sYqmXEqAi2LYgWkU5LdVE/vCtNRr8WHDLHRL0lTbSlvTeLzSI5Ws6AC6TPuJR68/3wsa4A==",
+      "type": "package",
+      "path": "documentformat.openxml/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "documentformat.openxml.3.1.0.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.dll",
+        "lib/net35/DocumentFormat.OpenXml.xml",
+        "lib/net40/DocumentFormat.OpenXml.dll",
+        "lib/net40/DocumentFormat.OpenXml.xml",
+        "lib/net46/DocumentFormat.OpenXml.dll",
+        "lib/net46/DocumentFormat.OpenXml.xml",
+        "lib/net8.0/DocumentFormat.OpenXml.dll",
+        "lib/net8.0/DocumentFormat.OpenXml.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
+      ]
+    },
+    "DocumentFormat.OpenXml.Framework/3.1.0": {
+      "sha512": "yz78IAteV+/jdpmQRlBIfhsmYfDYqgPSyPUsyT7KnfDlTTvqY6Zf5inMjTSwe2bnN8wv9dLD0C2sAkActXIy/A==",
+      "type": "package",
+      "path": "documentformat.openxml.framework/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "documentformat.openxml.framework.3.1.0.nupkg.sha512",
+        "documentformat.openxml.framework.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net35/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net40/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net40/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net46/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net46/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net6.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net6.0/DocumentFormat.OpenXml.Framework.xml",
+        "lib/net8.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/net8.0/DocumentFormat.OpenXml.Framework.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.Framework.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.Framework.xml"
+      ]
+    },
+    "Microsoft.Extensions.ApiDescription.Client/7.0.2": {
+      "sha512": "gSObdZ5LVFpgkdY8Tt1RzVD+8Xd7SN95ePuPiceAZbRL/EHZzAVTiH2sNsRwHcuMBu7nlTpeMDUjJDUCQuvK0A==",
+      "type": "package",
+      "path": "microsoft.extensions.apidescription.client/7.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/Microsoft.Extensions.ApiDescription.Client.props",
+        "build/Microsoft.Extensions.ApiDescription.Client.targets",
+        "build/OpenApiItemsSchema.xaml",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Client.props",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Client.targets",
+        "microsoft.extensions.apidescription.client.7.0.2.nupkg.sha512",
+        "microsoft.extensions.apidescription.client.nuspec",
+        "tasks/netstandard2.0/Microsoft.Extensions.ApiDescription.Client.deps.json",
+        "tasks/netstandard2.0/Microsoft.Extensions.ApiDescription.Client.dll"
+      ]
+    },
+    "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
+      "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
+      "type": "package",
+      "path": "microsoft.extensions.apidescription.server/6.0.5",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/Microsoft.Extensions.ApiDescription.Server.props",
+        "build/Microsoft.Extensions.ApiDescription.Server.targets",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets",
+        "microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+        "microsoft.extensions.apidescription.server.nuspec",
+        "tools/Newtonsoft.Json.dll",
+        "tools/dotnet-getdocument.deps.json",
+        "tools/dotnet-getdocument.dll",
+        "tools/dotnet-getdocument.runtimeconfig.json",
+        "tools/net461-x86/GetDocument.Insider.exe",
+        "tools/net461-x86/GetDocument.Insider.exe.config",
+        "tools/net461-x86/Microsoft.Win32.Primitives.dll",
+        "tools/net461-x86/System.AppContext.dll",
+        "tools/net461-x86/System.Buffers.dll",
+        "tools/net461-x86/System.Collections.Concurrent.dll",
+        "tools/net461-x86/System.Collections.NonGeneric.dll",
+        "tools/net461-x86/System.Collections.Specialized.dll",
+        "tools/net461-x86/System.Collections.dll",
+        "tools/net461-x86/System.ComponentModel.EventBasedAsync.dll",
+        "tools/net461-x86/System.ComponentModel.Primitives.dll",
+        "tools/net461-x86/System.ComponentModel.TypeConverter.dll",
+        "tools/net461-x86/System.ComponentModel.dll",
+        "tools/net461-x86/System.Console.dll",
+        "tools/net461-x86/System.Data.Common.dll",
+        "tools/net461-x86/System.Diagnostics.Contracts.dll",
+        "tools/net461-x86/System.Diagnostics.Debug.dll",
+        "tools/net461-x86/System.Diagnostics.DiagnosticSource.dll",
+        "tools/net461-x86/System.Diagnostics.FileVersionInfo.dll",
+        "tools/net461-x86/System.Diagnostics.Process.dll",
+        "tools/net461-x86/System.Diagnostics.StackTrace.dll",
+        "tools/net461-x86/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/net461-x86/System.Diagnostics.Tools.dll",
+        "tools/net461-x86/System.Diagnostics.TraceSource.dll",
+        "tools/net461-x86/System.Diagnostics.Tracing.dll",
+        "tools/net461-x86/System.Drawing.Primitives.dll",
+        "tools/net461-x86/System.Dynamic.Runtime.dll",
+        "tools/net461-x86/System.Globalization.Calendars.dll",
+        "tools/net461-x86/System.Globalization.Extensions.dll",
+        "tools/net461-x86/System.Globalization.dll",
+        "tools/net461-x86/System.IO.Compression.ZipFile.dll",
+        "tools/net461-x86/System.IO.Compression.dll",
+        "tools/net461-x86/System.IO.FileSystem.DriveInfo.dll",
+        "tools/net461-x86/System.IO.FileSystem.Primitives.dll",
+        "tools/net461-x86/System.IO.FileSystem.Watcher.dll",
+        "tools/net461-x86/System.IO.FileSystem.dll",
+        "tools/net461-x86/System.IO.IsolatedStorage.dll",
+        "tools/net461-x86/System.IO.MemoryMappedFiles.dll",
+        "tools/net461-x86/System.IO.Pipes.dll",
+        "tools/net461-x86/System.IO.UnmanagedMemoryStream.dll",
+        "tools/net461-x86/System.IO.dll",
+        "tools/net461-x86/System.Linq.Expressions.dll",
+        "tools/net461-x86/System.Linq.Parallel.dll",
+        "tools/net461-x86/System.Linq.Queryable.dll",
+        "tools/net461-x86/System.Linq.dll",
+        "tools/net461-x86/System.Memory.dll",
+        "tools/net461-x86/System.Net.Http.dll",
+        "tools/net461-x86/System.Net.NameResolution.dll",
+        "tools/net461-x86/System.Net.NetworkInformation.dll",
+        "tools/net461-x86/System.Net.Ping.dll",
+        "tools/net461-x86/System.Net.Primitives.dll",
+        "tools/net461-x86/System.Net.Requests.dll",
+        "tools/net461-x86/System.Net.Security.dll",
+        "tools/net461-x86/System.Net.Sockets.dll",
+        "tools/net461-x86/System.Net.WebHeaderCollection.dll",
+        "tools/net461-x86/System.Net.WebSockets.Client.dll",
+        "tools/net461-x86/System.Net.WebSockets.dll",
+        "tools/net461-x86/System.Numerics.Vectors.dll",
+        "tools/net461-x86/System.ObjectModel.dll",
+        "tools/net461-x86/System.Reflection.Extensions.dll",
+        "tools/net461-x86/System.Reflection.Primitives.dll",
+        "tools/net461-x86/System.Reflection.dll",
+        "tools/net461-x86/System.Resources.Reader.dll",
+        "tools/net461-x86/System.Resources.ResourceManager.dll",
+        "tools/net461-x86/System.Resources.Writer.dll",
+        "tools/net461-x86/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net461-x86/System.Runtime.CompilerServices.VisualC.dll",
+        "tools/net461-x86/System.Runtime.Extensions.dll",
+        "tools/net461-x86/System.Runtime.Handles.dll",
+        "tools/net461-x86/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/net461-x86/System.Runtime.InteropServices.dll",
+        "tools/net461-x86/System.Runtime.Numerics.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Formatters.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Json.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Primitives.dll",
+        "tools/net461-x86/System.Runtime.Serialization.Xml.dll",
+        "tools/net461-x86/System.Runtime.dll",
+        "tools/net461-x86/System.Security.Claims.dll",
+        "tools/net461-x86/System.Security.Cryptography.Algorithms.dll",
+        "tools/net461-x86/System.Security.Cryptography.Csp.dll",
+        "tools/net461-x86/System.Security.Cryptography.Encoding.dll",
+        "tools/net461-x86/System.Security.Cryptography.Primitives.dll",
+        "tools/net461-x86/System.Security.Cryptography.X509Certificates.dll",
+        "tools/net461-x86/System.Security.Principal.dll",
+        "tools/net461-x86/System.Security.SecureString.dll",
+        "tools/net461-x86/System.Text.Encoding.Extensions.dll",
+        "tools/net461-x86/System.Text.Encoding.dll",
+        "tools/net461-x86/System.Text.RegularExpressions.dll",
+        "tools/net461-x86/System.Threading.Overlapped.dll",
+        "tools/net461-x86/System.Threading.Tasks.Parallel.dll",
+        "tools/net461-x86/System.Threading.Tasks.dll",
+        "tools/net461-x86/System.Threading.Thread.dll",
+        "tools/net461-x86/System.Threading.ThreadPool.dll",
+        "tools/net461-x86/System.Threading.Timer.dll",
+        "tools/net461-x86/System.Threading.dll",
+        "tools/net461-x86/System.ValueTuple.dll",
+        "tools/net461-x86/System.Xml.ReaderWriter.dll",
+        "tools/net461-x86/System.Xml.XDocument.dll",
+        "tools/net461-x86/System.Xml.XPath.XDocument.dll",
+        "tools/net461-x86/System.Xml.XPath.dll",
+        "tools/net461-x86/System.Xml.XmlDocument.dll",
+        "tools/net461-x86/System.Xml.XmlSerializer.dll",
+        "tools/net461-x86/netstandard.dll",
+        "tools/net461/GetDocument.Insider.exe",
+        "tools/net461/GetDocument.Insider.exe.config",
+        "tools/net461/Microsoft.Win32.Primitives.dll",
+        "tools/net461/System.AppContext.dll",
+        "tools/net461/System.Buffers.dll",
+        "tools/net461/System.Collections.Concurrent.dll",
+        "tools/net461/System.Collections.NonGeneric.dll",
+        "tools/net461/System.Collections.Specialized.dll",
+        "tools/net461/System.Collections.dll",
+        "tools/net461/System.ComponentModel.EventBasedAsync.dll",
+        "tools/net461/System.ComponentModel.Primitives.dll",
+        "tools/net461/System.ComponentModel.TypeConverter.dll",
+        "tools/net461/System.ComponentModel.dll",
+        "tools/net461/System.Console.dll",
+        "tools/net461/System.Data.Common.dll",
+        "tools/net461/System.Diagnostics.Contracts.dll",
+        "tools/net461/System.Diagnostics.Debug.dll",
+        "tools/net461/System.Diagnostics.DiagnosticSource.dll",
+        "tools/net461/System.Diagnostics.FileVersionInfo.dll",
+        "tools/net461/System.Diagnostics.Process.dll",
+        "tools/net461/System.Diagnostics.StackTrace.dll",
+        "tools/net461/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/net461/System.Diagnostics.Tools.dll",
+        "tools/net461/System.Diagnostics.TraceSource.dll",
+        "tools/net461/System.Diagnostics.Tracing.dll",
+        "tools/net461/System.Drawing.Primitives.dll",
+        "tools/net461/System.Dynamic.Runtime.dll",
+        "tools/net461/System.Globalization.Calendars.dll",
+        "tools/net461/System.Globalization.Extensions.dll",
+        "tools/net461/System.Globalization.dll",
+        "tools/net461/System.IO.Compression.ZipFile.dll",
+        "tools/net461/System.IO.Compression.dll",
+        "tools/net461/System.IO.FileSystem.DriveInfo.dll",
+        "tools/net461/System.IO.FileSystem.Primitives.dll",
+        "tools/net461/System.IO.FileSystem.Watcher.dll",
+        "tools/net461/System.IO.FileSystem.dll",
+        "tools/net461/System.IO.IsolatedStorage.dll",
+        "tools/net461/System.IO.MemoryMappedFiles.dll",
+        "tools/net461/System.IO.Pipes.dll",
+        "tools/net461/System.IO.UnmanagedMemoryStream.dll",
+        "tools/net461/System.IO.dll",
+        "tools/net461/System.Linq.Expressions.dll",
+        "tools/net461/System.Linq.Parallel.dll",
+        "tools/net461/System.Linq.Queryable.dll",
+        "tools/net461/System.Linq.dll",
+        "tools/net461/System.Memory.dll",
+        "tools/net461/System.Net.Http.dll",
+        "tools/net461/System.Net.NameResolution.dll",
+        "tools/net461/System.Net.NetworkInformation.dll",
+        "tools/net461/System.Net.Ping.dll",
+        "tools/net461/System.Net.Primitives.dll",
+        "tools/net461/System.Net.Requests.dll",
+        "tools/net461/System.Net.Security.dll",
+        "tools/net461/System.Net.Sockets.dll",
+        "tools/net461/System.Net.WebHeaderCollection.dll",
+        "tools/net461/System.Net.WebSockets.Client.dll",
+        "tools/net461/System.Net.WebSockets.dll",
+        "tools/net461/System.Numerics.Vectors.dll",
+        "tools/net461/System.ObjectModel.dll",
+        "tools/net461/System.Reflection.Extensions.dll",
+        "tools/net461/System.Reflection.Primitives.dll",
+        "tools/net461/System.Reflection.dll",
+        "tools/net461/System.Resources.Reader.dll",
+        "tools/net461/System.Resources.ResourceManager.dll",
+        "tools/net461/System.Resources.Writer.dll",
+        "tools/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net461/System.Runtime.CompilerServices.VisualC.dll",
+        "tools/net461/System.Runtime.Extensions.dll",
+        "tools/net461/System.Runtime.Handles.dll",
+        "tools/net461/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/net461/System.Runtime.InteropServices.dll",
+        "tools/net461/System.Runtime.Numerics.dll",
+        "tools/net461/System.Runtime.Serialization.Formatters.dll",
+        "tools/net461/System.Runtime.Serialization.Json.dll",
+        "tools/net461/System.Runtime.Serialization.Primitives.dll",
+        "tools/net461/System.Runtime.Serialization.Xml.dll",
+        "tools/net461/System.Runtime.dll",
+        "tools/net461/System.Security.Claims.dll",
+        "tools/net461/System.Security.Cryptography.Algorithms.dll",
+        "tools/net461/System.Security.Cryptography.Csp.dll",
+        "tools/net461/System.Security.Cryptography.Encoding.dll",
+        "tools/net461/System.Security.Cryptography.Primitives.dll",
+        "tools/net461/System.Security.Cryptography.X509Certificates.dll",
+        "tools/net461/System.Security.Principal.dll",
+        "tools/net461/System.Security.SecureString.dll",
+        "tools/net461/System.Text.Encoding.Extensions.dll",
+        "tools/net461/System.Text.Encoding.dll",
+        "tools/net461/System.Text.RegularExpressions.dll",
+        "tools/net461/System.Threading.Overlapped.dll",
+        "tools/net461/System.Threading.Tasks.Parallel.dll",
+        "tools/net461/System.Threading.Tasks.dll",
+        "tools/net461/System.Threading.Thread.dll",
+        "tools/net461/System.Threading.ThreadPool.dll",
+        "tools/net461/System.Threading.Timer.dll",
+        "tools/net461/System.Threading.dll",
+        "tools/net461/System.ValueTuple.dll",
+        "tools/net461/System.Xml.ReaderWriter.dll",
+        "tools/net461/System.Xml.XDocument.dll",
+        "tools/net461/System.Xml.XPath.XDocument.dll",
+        "tools/net461/System.Xml.XPath.dll",
+        "tools/net461/System.Xml.XmlDocument.dll",
+        "tools/net461/System.Xml.XmlSerializer.dll",
+        "tools/net461/netstandard.dll",
+        "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
+        "tools/netcoreapp2.1/GetDocument.Insider.dll",
+        "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json",
+        "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
+      ]
+    },
+    "Microsoft.Extensions.ObjectPool/8.0.10": {
+      "sha512": "u7gAG7JgxF8VSJUGPSudAcPxOt+ymJKQCSxNRxiuKV+klCQbHljQR75SilpedCTfhPWDhtUwIJpnDVtspr9nMg==",
+      "type": "package",
+      "path": "microsoft.extensions.objectpool/8.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net462/Microsoft.Extensions.ObjectPool.xml",
+        "lib/net8.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/net8.0/Microsoft.Extensions.ObjectPool.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
+        "microsoft.extensions.objectpool.8.0.10.nupkg.sha512",
+        "microsoft.extensions.objectpool.nuspec"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.OpenApi/1.2.3": {
+      "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "type": "package",
+      "path": "microsoft.openapi/1.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Microsoft.OpenApi.dll",
+        "lib/net46/Microsoft.OpenApi.pdb",
+        "lib/net46/Microsoft.OpenApi.xml",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.2.3.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "sha512": "KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.xml",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "microsoft.win32.registry.4.7.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/net472/Microsoft.Win32.Registry.dll",
+        "ref/net472/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.xml",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "NSwag.ApiDescription.Client/13.18.2": {
+      "sha512": "uViMdjUscfeqrlDY4q9O2a0t2cMqsOx1kdX9WLyQjTXea1xjAHgQFCYlgE6ibwkYcUDJDlwEYUzvsJelL6SY3g==",
+      "type": "package",
+      "path": "nswag.apidescription.client/13.18.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/NSwag.ApiDescription.Client.props",
+        "build/NSwag.ApiDescription.Client.targets",
+        "nswag.apidescription.client.13.18.2.nupkg.sha512",
+        "nswag.apidescription.client.nuspec"
+      ]
+    },
+    "NSwag.MSBuild/13.18.2": {
+      "sha512": "SRQ3mONkfbJWhZxA1yOFMJMXavUvnXwcoYU23qoVqSEY2G+y8jZuq9ErWm76JT0Kn5/Ml5UhG1FWmLhkqd4/+A==",
+      "type": "package",
+      "path": "nswag.msbuild/13.18.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/NSwag.MSBuild.props",
+        "buildCrossTargeting/NSwag.MSBuild.props",
+        "nswag.msbuild.13.18.2.nupkg.sha512",
+        "nswag.msbuild.nuspec",
+        "tools/Net50/Fluid.dll",
+        "tools/Net50/Microsoft.AspNetCore.JsonPatch.dll",
+        "tools/Net50/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
+        "tools/Net50/Microsoft.AspNetCore.TestHost.dll",
+        "tools/Net50/Microsoft.Extensions.DependencyModel.dll",
+        "tools/Net50/Microsoft.Extensions.PlatformAbstractions.dll",
+        "tools/Net50/NConsole.dll",
+        "tools/Net50/NJsonSchema.CodeGeneration.CSharp.dll",
+        "tools/Net50/NJsonSchema.CodeGeneration.TypeScript.dll",
+        "tools/Net50/NJsonSchema.CodeGeneration.dll",
+        "tools/Net50/NJsonSchema.Yaml.dll",
+        "tools/Net50/NJsonSchema.dll",
+        "tools/Net50/NSwag.Annotations.dll",
+        "tools/Net50/NSwag.Annotations.pdb",
+        "tools/Net50/NSwag.Annotations.xml",
+        "tools/Net50/NSwag.AspNetCore.Launcher.dll",
+        "tools/Net50/NSwag.AspNetCore.Launcher.exe",
+        "tools/Net50/NSwag.AspNetCore.Launcher.pdb",
+        "tools/Net50/NSwag.AspNetCore.Launcher.runtimeconfig.json",
+        "tools/Net50/NSwag.AssemblyLoader.dll",
+        "tools/Net50/NSwag.AssemblyLoader.dll.config",
+        "tools/Net50/NSwag.AssemblyLoader.pdb",
+        "tools/Net50/NSwag.AssemblyLoader.xml",
+        "tools/Net50/NSwag.CodeGeneration.CSharp.dll",
+        "tools/Net50/NSwag.CodeGeneration.CSharp.pdb",
+        "tools/Net50/NSwag.CodeGeneration.CSharp.xml",
+        "tools/Net50/NSwag.CodeGeneration.TypeScript.dll",
+        "tools/Net50/NSwag.CodeGeneration.TypeScript.pdb",
+        "tools/Net50/NSwag.CodeGeneration.TypeScript.xml",
+        "tools/Net50/NSwag.CodeGeneration.dll",
+        "tools/Net50/NSwag.CodeGeneration.dll.config",
+        "tools/Net50/NSwag.CodeGeneration.pdb",
+        "tools/Net50/NSwag.CodeGeneration.xml",
+        "tools/Net50/NSwag.Commands.dll",
+        "tools/Net50/NSwag.Commands.pdb",
+        "tools/Net50/NSwag.Commands.xml",
+        "tools/Net50/NSwag.Core.Yaml.dll",
+        "tools/Net50/NSwag.Core.Yaml.pdb",
+        "tools/Net50/NSwag.Core.dll",
+        "tools/Net50/NSwag.Core.pdb",
+        "tools/Net50/NSwag.Core.xml",
+        "tools/Net50/NSwag.Generation.AspNetCore.dll",
+        "tools/Net50/NSwag.Generation.AspNetCore.pdb",
+        "tools/Net50/NSwag.Generation.AspNetCore.xml",
+        "tools/Net50/NSwag.Generation.WebApi.dll",
+        "tools/Net50/NSwag.Generation.WebApi.pdb",
+        "tools/Net50/NSwag.Generation.WebApi.xml",
+        "tools/Net50/NSwag.Generation.dll",
+        "tools/Net50/NSwag.Generation.pdb",
+        "tools/Net50/NSwag.Generation.xml",
+        "tools/Net50/Namotion.Reflection.dll",
+        "tools/Net50/Newtonsoft.Json.Bson.dll",
+        "tools/Net50/Newtonsoft.Json.dll",
+        "tools/Net50/Parlot.dll",
+        "tools/Net50/System.Text.Encodings.Web.dll",
+        "tools/Net50/TimeZoneConverter.dll",
+        "tools/Net50/YamlDotNet.dll",
+        "tools/Net50/dotnet-nswag.deps.json",
+        "tools/Net50/dotnet-nswag.dll",
+        "tools/Net50/dotnet-nswag.exe",
+        "tools/Net50/dotnet-nswag.pdb",
+        "tools/Net50/dotnet-nswag.runtimeconfig.json",
+        "tools/Net60/Fluid.dll",
+        "tools/Net60/Microsoft.AspNetCore.JsonPatch.dll",
+        "tools/Net60/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
+        "tools/Net60/Microsoft.AspNetCore.TestHost.dll",
+        "tools/Net60/Microsoft.Extensions.DependencyModel.dll",
+        "tools/Net60/Microsoft.Extensions.PlatformAbstractions.dll",
+        "tools/Net60/NConsole.dll",
+        "tools/Net60/NJsonSchema.CodeGeneration.CSharp.dll",
+        "tools/Net60/NJsonSchema.CodeGeneration.TypeScript.dll",
+        "tools/Net60/NJsonSchema.CodeGeneration.dll",
+        "tools/Net60/NJsonSchema.Yaml.dll",
+        "tools/Net60/NJsonSchema.dll",
+        "tools/Net60/NSwag.Annotations.dll",
+        "tools/Net60/NSwag.Annotations.pdb",
+        "tools/Net60/NSwag.Annotations.xml",
+        "tools/Net60/NSwag.AspNetCore.Launcher.dll",
+        "tools/Net60/NSwag.AspNetCore.Launcher.exe",
+        "tools/Net60/NSwag.AspNetCore.Launcher.pdb",
+        "tools/Net60/NSwag.AspNetCore.Launcher.runtimeconfig.json",
+        "tools/Net60/NSwag.AssemblyLoader.dll",
+        "tools/Net60/NSwag.AssemblyLoader.dll.config",
+        "tools/Net60/NSwag.AssemblyLoader.pdb",
+        "tools/Net60/NSwag.AssemblyLoader.xml",
+        "tools/Net60/NSwag.CodeGeneration.CSharp.dll",
+        "tools/Net60/NSwag.CodeGeneration.CSharp.pdb",
+        "tools/Net60/NSwag.CodeGeneration.CSharp.xml",
+        "tools/Net60/NSwag.CodeGeneration.TypeScript.dll",
+        "tools/Net60/NSwag.CodeGeneration.TypeScript.pdb",
+        "tools/Net60/NSwag.CodeGeneration.TypeScript.xml",
+        "tools/Net60/NSwag.CodeGeneration.dll",
+        "tools/Net60/NSwag.CodeGeneration.dll.config",
+        "tools/Net60/NSwag.CodeGeneration.pdb",
+        "tools/Net60/NSwag.CodeGeneration.xml",
+        "tools/Net60/NSwag.Commands.dll",
+        "tools/Net60/NSwag.Commands.pdb",
+        "tools/Net60/NSwag.Commands.xml",
+        "tools/Net60/NSwag.Core.Yaml.dll",
+        "tools/Net60/NSwag.Core.Yaml.pdb",
+        "tools/Net60/NSwag.Core.dll",
+        "tools/Net60/NSwag.Core.pdb",
+        "tools/Net60/NSwag.Core.xml",
+        "tools/Net60/NSwag.Generation.AspNetCore.dll",
+        "tools/Net60/NSwag.Generation.AspNetCore.pdb",
+        "tools/Net60/NSwag.Generation.AspNetCore.xml",
+        "tools/Net60/NSwag.Generation.WebApi.dll",
+        "tools/Net60/NSwag.Generation.WebApi.pdb",
+        "tools/Net60/NSwag.Generation.WebApi.xml",
+        "tools/Net60/NSwag.Generation.dll",
+        "tools/Net60/NSwag.Generation.pdb",
+        "tools/Net60/NSwag.Generation.xml",
+        "tools/Net60/Namotion.Reflection.dll",
+        "tools/Net60/Newtonsoft.Json.Bson.dll",
+        "tools/Net60/Newtonsoft.Json.dll",
+        "tools/Net60/Parlot.dll",
+        "tools/Net60/TimeZoneConverter.dll",
+        "tools/Net60/YamlDotNet.dll",
+        "tools/Net60/dotnet-nswag.deps.json",
+        "tools/Net60/dotnet-nswag.dll",
+        "tools/Net60/dotnet-nswag.exe",
+        "tools/Net60/dotnet-nswag.pdb",
+        "tools/Net60/dotnet-nswag.runtimeconfig.json",
+        "tools/Net70/Fluid.dll",
+        "tools/Net70/Microsoft.AspNetCore.JsonPatch.dll",
+        "tools/Net70/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
+        "tools/Net70/Microsoft.AspNetCore.TestHost.dll",
+        "tools/Net70/Microsoft.Extensions.DependencyModel.dll",
+        "tools/Net70/Microsoft.Extensions.PlatformAbstractions.dll",
+        "tools/Net70/NConsole.dll",
+        "tools/Net70/NJsonSchema.CodeGeneration.CSharp.dll",
+        "tools/Net70/NJsonSchema.CodeGeneration.TypeScript.dll",
+        "tools/Net70/NJsonSchema.CodeGeneration.dll",
+        "tools/Net70/NJsonSchema.Yaml.dll",
+        "tools/Net70/NJsonSchema.dll",
+        "tools/Net70/NSwag.Annotations.dll",
+        "tools/Net70/NSwag.Annotations.pdb",
+        "tools/Net70/NSwag.Annotations.xml",
+        "tools/Net70/NSwag.AspNetCore.Launcher.dll",
+        "tools/Net70/NSwag.AspNetCore.Launcher.exe",
+        "tools/Net70/NSwag.AspNetCore.Launcher.pdb",
+        "tools/Net70/NSwag.AspNetCore.Launcher.runtimeconfig.json",
+        "tools/Net70/NSwag.AssemblyLoader.dll",
+        "tools/Net70/NSwag.AssemblyLoader.dll.config",
+        "tools/Net70/NSwag.AssemblyLoader.pdb",
+        "tools/Net70/NSwag.AssemblyLoader.xml",
+        "tools/Net70/NSwag.CodeGeneration.CSharp.dll",
+        "tools/Net70/NSwag.CodeGeneration.CSharp.pdb",
+        "tools/Net70/NSwag.CodeGeneration.CSharp.xml",
+        "tools/Net70/NSwag.CodeGeneration.TypeScript.dll",
+        "tools/Net70/NSwag.CodeGeneration.TypeScript.pdb",
+        "tools/Net70/NSwag.CodeGeneration.TypeScript.xml",
+        "tools/Net70/NSwag.CodeGeneration.dll",
+        "tools/Net70/NSwag.CodeGeneration.dll.config",
+        "tools/Net70/NSwag.CodeGeneration.pdb",
+        "tools/Net70/NSwag.CodeGeneration.xml",
+        "tools/Net70/NSwag.Commands.dll",
+        "tools/Net70/NSwag.Commands.pdb",
+        "tools/Net70/NSwag.Commands.xml",
+        "tools/Net70/NSwag.Core.Yaml.dll",
+        "tools/Net70/NSwag.Core.Yaml.pdb",
+        "tools/Net70/NSwag.Core.dll",
+        "tools/Net70/NSwag.Core.pdb",
+        "tools/Net70/NSwag.Core.xml",
+        "tools/Net70/NSwag.Generation.AspNetCore.dll",
+        "tools/Net70/NSwag.Generation.AspNetCore.pdb",
+        "tools/Net70/NSwag.Generation.AspNetCore.xml",
+        "tools/Net70/NSwag.Generation.WebApi.dll",
+        "tools/Net70/NSwag.Generation.WebApi.pdb",
+        "tools/Net70/NSwag.Generation.WebApi.xml",
+        "tools/Net70/NSwag.Generation.dll",
+        "tools/Net70/NSwag.Generation.pdb",
+        "tools/Net70/NSwag.Generation.xml",
+        "tools/Net70/Namotion.Reflection.dll",
+        "tools/Net70/Newtonsoft.Json.Bson.dll",
+        "tools/Net70/Newtonsoft.Json.dll",
+        "tools/Net70/Parlot.dll",
+        "tools/Net70/TimeZoneConverter.dll",
+        "tools/Net70/YamlDotNet.dll",
+        "tools/Net70/dotnet-nswag.deps.json",
+        "tools/Net70/dotnet-nswag.dll",
+        "tools/Net70/dotnet-nswag.exe",
+        "tools/Net70/dotnet-nswag.pdb",
+        "tools/Net70/dotnet-nswag.runtimeconfig.json",
+        "tools/NetCore21/Fluid.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Authentication.Abstractions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Authentication.Core.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Authorization.Policy.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Authorization.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Diagnostics.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.HostFiltering.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Hosting.Abstractions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Hosting.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Http.Extensions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Http.Features.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Http.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.HttpOverrides.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.JsonPatch.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Mvc.Abstractions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Mvc.ApiExplorer.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Mvc.Core.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Mvc.Formatters.Json.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Routing.Abstractions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Routing.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Server.IISIntegration.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Server.Kestrel.Https.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.Server.Kestrel.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.TestHost.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.WebUtilities.dll",
+        "tools/NetCore21/Microsoft.AspNetCore.dll",
+        "tools/NetCore21/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/NetCore21/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/NetCore21/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/NetCore21/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/NetCore21/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/NetCore21/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "tools/NetCore21/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/NetCore21/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/NetCore21/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "tools/NetCore21/Microsoft.Extensions.Configuration.dll",
+        "tools/NetCore21/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/NetCore21/Microsoft.Extensions.DependencyInjection.dll",
+        "tools/NetCore21/Microsoft.Extensions.DependencyModel.dll",
+        "tools/NetCore21/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/NetCore21/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/NetCore21/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/NetCore21/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "tools/NetCore21/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/NetCore21/Microsoft.Extensions.Logging.Configuration.dll",
+        "tools/NetCore21/Microsoft.Extensions.Logging.Console.dll",
+        "tools/NetCore21/Microsoft.Extensions.Logging.Debug.dll",
+        "tools/NetCore21/Microsoft.Extensions.Logging.dll",
+        "tools/NetCore21/Microsoft.Extensions.ObjectPool.dll",
+        "tools/NetCore21/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tools/NetCore21/Microsoft.Extensions.Options.dll",
+        "tools/NetCore21/Microsoft.Extensions.PlatformAbstractions.dll",
+        "tools/NetCore21/Microsoft.Extensions.Primitives.dll",
+        "tools/NetCore21/Microsoft.Net.Http.Headers.dll",
+        "tools/NetCore21/NConsole.dll",
+        "tools/NetCore21/NJsonSchema.CodeGeneration.CSharp.dll",
+        "tools/NetCore21/NJsonSchema.CodeGeneration.TypeScript.dll",
+        "tools/NetCore21/NJsonSchema.CodeGeneration.dll",
+        "tools/NetCore21/NJsonSchema.Yaml.dll",
+        "tools/NetCore21/NJsonSchema.dll",
+        "tools/NetCore21/NSwag.Annotations.dll",
+        "tools/NetCore21/NSwag.Annotations.pdb",
+        "tools/NetCore21/NSwag.Annotations.xml",
+        "tools/NetCore21/NSwag.AspNetCore.Launcher.exe",
+        "tools/NetCore21/NSwag.AspNetCore.Launcher.exe.config",
+        "tools/NetCore21/NSwag.AspNetCore.Launcher.pdb",
+        "tools/NetCore21/NSwag.AssemblyLoader.dll",
+        "tools/NetCore21/NSwag.AssemblyLoader.dll.config",
+        "tools/NetCore21/NSwag.AssemblyLoader.pdb",
+        "tools/NetCore21/NSwag.AssemblyLoader.xml",
+        "tools/NetCore21/NSwag.CodeGeneration.CSharp.dll",
+        "tools/NetCore21/NSwag.CodeGeneration.CSharp.pdb",
+        "tools/NetCore21/NSwag.CodeGeneration.CSharp.xml",
+        "tools/NetCore21/NSwag.CodeGeneration.TypeScript.dll",
+        "tools/NetCore21/NSwag.CodeGeneration.TypeScript.pdb",
+        "tools/NetCore21/NSwag.CodeGeneration.TypeScript.xml",
+        "tools/NetCore21/NSwag.CodeGeneration.dll",
+        "tools/NetCore21/NSwag.CodeGeneration.dll.config",
+        "tools/NetCore21/NSwag.CodeGeneration.pdb",
+        "tools/NetCore21/NSwag.CodeGeneration.xml",
+        "tools/NetCore21/NSwag.Commands.dll",
+        "tools/NetCore21/NSwag.Commands.pdb",
+        "tools/NetCore21/NSwag.Commands.xml",
+        "tools/NetCore21/NSwag.Core.Yaml.dll",
+        "tools/NetCore21/NSwag.Core.Yaml.pdb",
+        "tools/NetCore21/NSwag.Core.dll",
+        "tools/NetCore21/NSwag.Core.pdb",
+        "tools/NetCore21/NSwag.Core.xml",
+        "tools/NetCore21/NSwag.Generation.AspNetCore.dll",
+        "tools/NetCore21/NSwag.Generation.AspNetCore.pdb",
+        "tools/NetCore21/NSwag.Generation.AspNetCore.xml",
+        "tools/NetCore21/NSwag.Generation.WebApi.dll",
+        "tools/NetCore21/NSwag.Generation.WebApi.pdb",
+        "tools/NetCore21/NSwag.Generation.WebApi.xml",
+        "tools/NetCore21/NSwag.Generation.dll",
+        "tools/NetCore21/NSwag.Generation.pdb",
+        "tools/NetCore21/NSwag.Generation.xml",
+        "tools/NetCore21/Namotion.Reflection.dll",
+        "tools/NetCore21/Newtonsoft.Json.dll",
+        "tools/NetCore21/Parlot.dll",
+        "tools/NetCore21/System.Diagnostics.DiagnosticSource.dll",
+        "tools/NetCore21/System.IO.Pipelines.dll",
+        "tools/NetCore21/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/NetCore21/System.Security.Principal.Windows.dll",
+        "tools/NetCore21/System.Text.Encodings.Web.dll",
+        "tools/NetCore21/System.Text.Json.dll",
+        "tools/NetCore21/TimeZoneConverter.dll",
+        "tools/NetCore21/YamlDotNet.dll",
+        "tools/NetCore21/dotnet-nswag.deps.json",
+        "tools/NetCore21/dotnet-nswag.dll",
+        "tools/NetCore21/dotnet-nswag.pdb",
+        "tools/NetCore21/dotnet-nswag.runtimeconfig.json",
+        "tools/NetCore21/runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "tools/NetCore21/runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "tools/NetCore31/Fluid.dll",
+        "tools/NetCore31/Microsoft.AspNetCore.JsonPatch.dll",
+        "tools/NetCore31/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
+        "tools/NetCore31/Microsoft.AspNetCore.TestHost.dll",
+        "tools/NetCore31/Microsoft.Extensions.DependencyModel.dll",
+        "tools/NetCore31/Microsoft.Extensions.PlatformAbstractions.dll",
+        "tools/NetCore31/NConsole.dll",
+        "tools/NetCore31/NJsonSchema.CodeGeneration.CSharp.dll",
+        "tools/NetCore31/NJsonSchema.CodeGeneration.TypeScript.dll",
+        "tools/NetCore31/NJsonSchema.CodeGeneration.dll",
+        "tools/NetCore31/NJsonSchema.Yaml.dll",
+        "tools/NetCore31/NJsonSchema.dll",
+        "tools/NetCore31/NSwag.Annotations.dll",
+        "tools/NetCore31/NSwag.Annotations.pdb",
+        "tools/NetCore31/NSwag.Annotations.xml",
+        "tools/NetCore31/NSwag.AspNetCore.Launcher.dll",
+        "tools/NetCore31/NSwag.AspNetCore.Launcher.exe",
+        "tools/NetCore31/NSwag.AspNetCore.Launcher.pdb",
+        "tools/NetCore31/NSwag.AspNetCore.Launcher.runtimeconfig.json",
+        "tools/NetCore31/NSwag.AssemblyLoader.dll",
+        "tools/NetCore31/NSwag.AssemblyLoader.dll.config",
+        "tools/NetCore31/NSwag.AssemblyLoader.pdb",
+        "tools/NetCore31/NSwag.AssemblyLoader.xml",
+        "tools/NetCore31/NSwag.CodeGeneration.CSharp.dll",
+        "tools/NetCore31/NSwag.CodeGeneration.CSharp.pdb",
+        "tools/NetCore31/NSwag.CodeGeneration.CSharp.xml",
+        "tools/NetCore31/NSwag.CodeGeneration.TypeScript.dll",
+        "tools/NetCore31/NSwag.CodeGeneration.TypeScript.pdb",
+        "tools/NetCore31/NSwag.CodeGeneration.TypeScript.xml",
+        "tools/NetCore31/NSwag.CodeGeneration.dll",
+        "tools/NetCore31/NSwag.CodeGeneration.dll.config",
+        "tools/NetCore31/NSwag.CodeGeneration.pdb",
+        "tools/NetCore31/NSwag.CodeGeneration.xml",
+        "tools/NetCore31/NSwag.Commands.dll",
+        "tools/NetCore31/NSwag.Commands.pdb",
+        "tools/NetCore31/NSwag.Commands.xml",
+        "tools/NetCore31/NSwag.Core.Yaml.dll",
+        "tools/NetCore31/NSwag.Core.Yaml.pdb",
+        "tools/NetCore31/NSwag.Core.dll",
+        "tools/NetCore31/NSwag.Core.pdb",
+        "tools/NetCore31/NSwag.Core.xml",
+        "tools/NetCore31/NSwag.Generation.AspNetCore.dll",
+        "tools/NetCore31/NSwag.Generation.AspNetCore.pdb",
+        "tools/NetCore31/NSwag.Generation.AspNetCore.xml",
+        "tools/NetCore31/NSwag.Generation.WebApi.dll",
+        "tools/NetCore31/NSwag.Generation.WebApi.pdb",
+        "tools/NetCore31/NSwag.Generation.WebApi.xml",
+        "tools/NetCore31/NSwag.Generation.dll",
+        "tools/NetCore31/NSwag.Generation.pdb",
+        "tools/NetCore31/NSwag.Generation.xml",
+        "tools/NetCore31/Namotion.Reflection.dll",
+        "tools/NetCore31/Newtonsoft.Json.Bson.dll",
+        "tools/NetCore31/Newtonsoft.Json.dll",
+        "tools/NetCore31/Parlot.dll",
+        "tools/NetCore31/System.Text.Encodings.Web.dll",
+        "tools/NetCore31/TimeZoneConverter.dll",
+        "tools/NetCore31/YamlDotNet.dll",
+        "tools/NetCore31/dotnet-nswag.deps.json",
+        "tools/NetCore31/dotnet-nswag.dll",
+        "tools/NetCore31/dotnet-nswag.exe",
+        "tools/NetCore31/dotnet-nswag.pdb",
+        "tools/NetCore31/dotnet-nswag.runtimeconfig.json",
+        "tools/Win/Fluid.dll",
+        "tools/Win/Microsoft.AspNetCore.Authentication.Abstractions.dll",
+        "tools/Win/Microsoft.AspNetCore.Authentication.Core.dll",
+        "tools/Win/Microsoft.AspNetCore.Authorization.Policy.dll",
+        "tools/Win/Microsoft.AspNetCore.Authorization.dll",
+        "tools/Win/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "tools/Win/Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
+        "tools/Win/Microsoft.AspNetCore.Diagnostics.dll",
+        "tools/Win/Microsoft.AspNetCore.HostFiltering.dll",
+        "tools/Win/Microsoft.AspNetCore.Hosting.Abstractions.dll",
+        "tools/Win/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
+        "tools/Win/Microsoft.AspNetCore.Hosting.dll",
+        "tools/Win/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "tools/Win/Microsoft.AspNetCore.Http.Extensions.dll",
+        "tools/Win/Microsoft.AspNetCore.Http.Features.dll",
+        "tools/Win/Microsoft.AspNetCore.Http.dll",
+        "tools/Win/Microsoft.AspNetCore.HttpOverrides.dll",
+        "tools/Win/Microsoft.AspNetCore.JsonPatch.dll",
+        "tools/Win/Microsoft.AspNetCore.Mvc.Abstractions.dll",
+        "tools/Win/Microsoft.AspNetCore.Mvc.ApiExplorer.dll",
+        "tools/Win/Microsoft.AspNetCore.Mvc.Core.dll",
+        "tools/Win/Microsoft.AspNetCore.Mvc.Formatters.Json.dll",
+        "tools/Win/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll",
+        "tools/Win/Microsoft.AspNetCore.Routing.Abstractions.dll",
+        "tools/Win/Microsoft.AspNetCore.Routing.dll",
+        "tools/Win/Microsoft.AspNetCore.Server.IISIntegration.dll",
+        "tools/Win/Microsoft.AspNetCore.Server.Kestrel.Core.dll",
+        "tools/Win/Microsoft.AspNetCore.Server.Kestrel.Https.dll",
+        "tools/Win/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll",
+        "tools/Win/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
+        "tools/Win/Microsoft.AspNetCore.Server.Kestrel.dll",
+        "tools/Win/Microsoft.AspNetCore.TestHost.dll",
+        "tools/Win/Microsoft.AspNetCore.WebUtilities.dll",
+        "tools/Win/Microsoft.AspNetCore.dll",
+        "tools/Win/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/Win/Microsoft.DotNet.PlatformAbstractions.dll",
+        "tools/Win/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/Win/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/Win/Microsoft.Extensions.Configuration.CommandLine.dll",
+        "tools/Win/Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "tools/Win/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/Win/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/Win/Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "tools/Win/Microsoft.Extensions.Configuration.dll",
+        "tools/Win/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/Win/Microsoft.Extensions.DependencyInjection.dll",
+        "tools/Win/Microsoft.Extensions.DependencyModel.dll",
+        "tools/Win/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/Win/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/Win/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/Win/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "tools/Win/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/Win/Microsoft.Extensions.Logging.Configuration.dll",
+        "tools/Win/Microsoft.Extensions.Logging.Console.dll",
+        "tools/Win/Microsoft.Extensions.Logging.Debug.dll",
+        "tools/Win/Microsoft.Extensions.Logging.dll",
+        "tools/Win/Microsoft.Extensions.ObjectPool.dll",
+        "tools/Win/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tools/Win/Microsoft.Extensions.Options.dll",
+        "tools/Win/Microsoft.Extensions.PlatformAbstractions.dll",
+        "tools/Win/Microsoft.Extensions.Primitives.dll",
+        "tools/Win/Microsoft.Net.Http.Headers.dll",
+        "tools/Win/Microsoft.Win32.Primitives.dll",
+        "tools/Win/NConsole.dll",
+        "tools/Win/NJsonSchema.CodeGeneration.CSharp.dll",
+        "tools/Win/NJsonSchema.CodeGeneration.TypeScript.dll",
+        "tools/Win/NJsonSchema.CodeGeneration.dll",
+        "tools/Win/NJsonSchema.Yaml.dll",
+        "tools/Win/NJsonSchema.dll",
+        "tools/Win/NSwag.Annotations.dll",
+        "tools/Win/NSwag.Annotations.pdb",
+        "tools/Win/NSwag.Annotations.xml",
+        "tools/Win/NSwag.AspNetCore.Launcher.exe",
+        "tools/Win/NSwag.AspNetCore.Launcher.exe.config",
+        "tools/Win/NSwag.AspNetCore.Launcher.pdb",
+        "tools/Win/NSwag.AspNetCore.Launcher.x86.exe",
+        "tools/Win/NSwag.AspNetCore.Launcher.x86.exe.config",
+        "tools/Win/NSwag.AssemblyLoader.dll",
+        "tools/Win/NSwag.AssemblyLoader.dll.config",
+        "tools/Win/NSwag.AssemblyLoader.pdb",
+        "tools/Win/NSwag.AssemblyLoader.xml",
+        "tools/Win/NSwag.CodeGeneration.CSharp.dll",
+        "tools/Win/NSwag.CodeGeneration.CSharp.pdb",
+        "tools/Win/NSwag.CodeGeneration.CSharp.xml",
+        "tools/Win/NSwag.CodeGeneration.TypeScript.dll",
+        "tools/Win/NSwag.CodeGeneration.TypeScript.pdb",
+        "tools/Win/NSwag.CodeGeneration.TypeScript.xml",
+        "tools/Win/NSwag.CodeGeneration.dll",
+        "tools/Win/NSwag.CodeGeneration.dll.config",
+        "tools/Win/NSwag.CodeGeneration.pdb",
+        "tools/Win/NSwag.CodeGeneration.xml",
+        "tools/Win/NSwag.Commands.dll",
+        "tools/Win/NSwag.Commands.pdb",
+        "tools/Win/NSwag.Commands.xml",
+        "tools/Win/NSwag.Core.Yaml.dll",
+        "tools/Win/NSwag.Core.Yaml.pdb",
+        "tools/Win/NSwag.Core.dll",
+        "tools/Win/NSwag.Core.pdb",
+        "tools/Win/NSwag.Core.xml",
+        "tools/Win/NSwag.Generation.AspNetCore.dll",
+        "tools/Win/NSwag.Generation.AspNetCore.pdb",
+        "tools/Win/NSwag.Generation.AspNetCore.xml",
+        "tools/Win/NSwag.Generation.WebApi.dll",
+        "tools/Win/NSwag.Generation.WebApi.pdb",
+        "tools/Win/NSwag.Generation.WebApi.xml",
+        "tools/Win/NSwag.Generation.dll",
+        "tools/Win/NSwag.Generation.pdb",
+        "tools/Win/NSwag.Generation.xml",
+        "tools/Win/NSwag.exe",
+        "tools/Win/NSwag.exe.config",
+        "tools/Win/NSwag.pdb",
+        "tools/Win/NSwag.x86.exe",
+        "tools/Win/NSwag.x86.exe.config",
+        "tools/Win/Namotion.Reflection.dll",
+        "tools/Win/Newtonsoft.Json.dll",
+        "tools/Win/Parlot.dll",
+        "tools/Win/System.AppContext.dll",
+        "tools/Win/System.Buffers.dll",
+        "tools/Win/System.Collections.Concurrent.dll",
+        "tools/Win/System.Collections.Immutable.dll",
+        "tools/Win/System.Collections.NonGeneric.dll",
+        "tools/Win/System.Collections.Specialized.dll",
+        "tools/Win/System.Collections.dll",
+        "tools/Win/System.ComponentModel.EventBasedAsync.dll",
+        "tools/Win/System.ComponentModel.Primitives.dll",
+        "tools/Win/System.ComponentModel.TypeConverter.dll",
+        "tools/Win/System.ComponentModel.dll",
+        "tools/Win/System.Console.dll",
+        "tools/Win/System.Data.Common.dll",
+        "tools/Win/System.Diagnostics.Contracts.dll",
+        "tools/Win/System.Diagnostics.Debug.dll",
+        "tools/Win/System.Diagnostics.DiagnosticSource.dll",
+        "tools/Win/System.Diagnostics.FileVersionInfo.dll",
+        "tools/Win/System.Diagnostics.Process.dll",
+        "tools/Win/System.Diagnostics.StackTrace.dll",
+        "tools/Win/System.Diagnostics.TextWriterTraceListener.dll",
+        "tools/Win/System.Diagnostics.Tools.dll",
+        "tools/Win/System.Diagnostics.TraceSource.dll",
+        "tools/Win/System.Diagnostics.Tracing.dll",
+        "tools/Win/System.Drawing.Primitives.dll",
+        "tools/Win/System.Dynamic.Runtime.dll",
+        "tools/Win/System.Globalization.Calendars.dll",
+        "tools/Win/System.Globalization.Extensions.dll",
+        "tools/Win/System.Globalization.dll",
+        "tools/Win/System.IO.Compression.ZipFile.dll",
+        "tools/Win/System.IO.Compression.dll",
+        "tools/Win/System.IO.FileSystem.DriveInfo.dll",
+        "tools/Win/System.IO.FileSystem.Primitives.dll",
+        "tools/Win/System.IO.FileSystem.Watcher.dll",
+        "tools/Win/System.IO.FileSystem.dll",
+        "tools/Win/System.IO.IsolatedStorage.dll",
+        "tools/Win/System.IO.MemoryMappedFiles.dll",
+        "tools/Win/System.IO.Pipelines.dll",
+        "tools/Win/System.IO.Pipes.dll",
+        "tools/Win/System.IO.UnmanagedMemoryStream.dll",
+        "tools/Win/System.IO.dll",
+        "tools/Win/System.Linq.Expressions.dll",
+        "tools/Win/System.Linq.Parallel.dll",
+        "tools/Win/System.Linq.Queryable.dll",
+        "tools/Win/System.Linq.dll",
+        "tools/Win/System.Memory.dll",
+        "tools/Win/System.Net.Http.dll",
+        "tools/Win/System.Net.NameResolution.dll",
+        "tools/Win/System.Net.NetworkInformation.dll",
+        "tools/Win/System.Net.Ping.dll",
+        "tools/Win/System.Net.Primitives.dll",
+        "tools/Win/System.Net.Requests.dll",
+        "tools/Win/System.Net.Security.dll",
+        "tools/Win/System.Net.Sockets.dll",
+        "tools/Win/System.Net.WebHeaderCollection.dll",
+        "tools/Win/System.Net.WebSockets.Client.dll",
+        "tools/Win/System.Net.WebSockets.dll",
+        "tools/Win/System.Numerics.Vectors.dll",
+        "tools/Win/System.ObjectModel.dll",
+        "tools/Win/System.Reflection.Extensions.dll",
+        "tools/Win/System.Reflection.Metadata.dll",
+        "tools/Win/System.Reflection.Primitives.dll",
+        "tools/Win/System.Reflection.dll",
+        "tools/Win/System.Resources.Reader.dll",
+        "tools/Win/System.Resources.ResourceManager.dll",
+        "tools/Win/System.Resources.Writer.dll",
+        "tools/Win/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/Win/System.Runtime.CompilerServices.VisualC.dll",
+        "tools/Win/System.Runtime.Extensions.dll",
+        "tools/Win/System.Runtime.Handles.dll",
+        "tools/Win/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/Win/System.Runtime.InteropServices.dll",
+        "tools/Win/System.Runtime.Numerics.dll",
+        "tools/Win/System.Runtime.Serialization.Formatters.dll",
+        "tools/Win/System.Runtime.Serialization.Json.dll",
+        "tools/Win/System.Runtime.Serialization.Primitives.dll",
+        "tools/Win/System.Runtime.Serialization.Xml.dll",
+        "tools/Win/System.Runtime.dll",
+        "tools/Win/System.Security.Claims.dll",
+        "tools/Win/System.Security.Cryptography.Algorithms.dll",
+        "tools/Win/System.Security.Cryptography.Cng.dll",
+        "tools/Win/System.Security.Cryptography.Csp.dll",
+        "tools/Win/System.Security.Cryptography.Encoding.dll",
+        "tools/Win/System.Security.Cryptography.Primitives.dll",
+        "tools/Win/System.Security.Cryptography.X509Certificates.dll",
+        "tools/Win/System.Security.Principal.Windows.dll",
+        "tools/Win/System.Security.Principal.dll",
+        "tools/Win/System.Security.SecureString.dll",
+        "tools/Win/System.Text.Encoding.Extensions.dll",
+        "tools/Win/System.Text.Encoding.dll",
+        "tools/Win/System.Text.Encodings.Web.dll",
+        "tools/Win/System.Text.Json.dll",
+        "tools/Win/System.Text.RegularExpressions.dll",
+        "tools/Win/System.Threading.Overlapped.dll",
+        "tools/Win/System.Threading.Tasks.Extensions.dll",
+        "tools/Win/System.Threading.Tasks.Parallel.dll",
+        "tools/Win/System.Threading.Tasks.dll",
+        "tools/Win/System.Threading.Thread.dll",
+        "tools/Win/System.Threading.ThreadPool.dll",
+        "tools/Win/System.Threading.Timer.dll",
+        "tools/Win/System.Threading.dll",
+        "tools/Win/System.ValueTuple.dll",
+        "tools/Win/System.Xml.ReaderWriter.dll",
+        "tools/Win/System.Xml.XDocument.dll",
+        "tools/Win/System.Xml.XPath.XDocument.dll",
+        "tools/Win/System.Xml.XPath.dll",
+        "tools/Win/System.Xml.XmlDocument.dll",
+        "tools/Win/System.Xml.XmlSerializer.dll",
+        "tools/Win/TimeZoneConverter.dll",
+        "tools/Win/YamlDotNet.dll",
+        "tools/Win/netstandard.dll"
+      ]
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+      "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
+      "type": "package",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+        "runtime.native.system.data.sqlclient.sni.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "type": "package",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-arm64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "type": "package",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x64.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x64/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "sha512": "YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "type": "package",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+        "runtime.win-x86.runtime.native.system.data.sqlclient.sni.nuspec",
+        "runtimes/win-x86/native/sni.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Swashbuckle.AspNetCore/6.4.0": {
+      "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Swashbuckle.AspNetCore.props",
+        "swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/6.4.0": {
+      "sha512": "nl4SBgGM+cmthUcpwO/w1lUjevdDHAqRvfUoe4Xp/Uvuzt9mzGUwyFCqa3ODBAcZYBiFoKvrYwz0rabslJvSmQ==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/6.4.0": {
+      "sha512": "lXhcUBVqKrPFAQF7e/ZeDfb5PMgE8n5t6L5B6/BQSpiwxgHzmBcx8Msu42zLYFTvR5PIqE9Q9lZvSQAcwCxJjw==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/6.4.0": {
+      "sha512": "1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net5.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
+      ]
+    },
+    "System.Data.Odbc/8.0.0": {
+      "sha512": "c+GfnZt2/HyU+voKw2fctLZClcNjPZPWS+mnIhGvDknRMqL/fwWlREWPgA4csbp9ZkQIgB4qkufgdh/oh5Ubow==",
+      "type": "package",
+      "path": "system.data.odbc/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Data.Odbc.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Data.Odbc.targets",
+        "lib/net462/System.Data.Odbc.dll",
+        "lib/net462/System.Data.Odbc.xml",
+        "lib/net6.0/System.Data.Odbc.dll",
+        "lib/net6.0/System.Data.Odbc.xml",
+        "lib/net7.0/System.Data.Odbc.dll",
+        "lib/net7.0/System.Data.Odbc.xml",
+        "lib/net8.0/System.Data.Odbc.dll",
+        "lib/net8.0/System.Data.Odbc.xml",
+        "lib/netstandard2.0/System.Data.Odbc.dll",
+        "lib/netstandard2.0/System.Data.Odbc.xml",
+        "runtimes/freebsd/lib/net6.0/System.Data.Odbc.dll",
+        "runtimes/freebsd/lib/net6.0/System.Data.Odbc.xml",
+        "runtimes/freebsd/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/freebsd/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/freebsd/lib/net8.0/System.Data.Odbc.dll",
+        "runtimes/freebsd/lib/net8.0/System.Data.Odbc.xml",
+        "runtimes/illumos/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/illumos/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/illumos/lib/net8.0/System.Data.Odbc.dll",
+        "runtimes/illumos/lib/net8.0/System.Data.Odbc.xml",
+        "runtimes/ios/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/ios/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/ios/lib/net8.0/System.Data.Odbc.dll",
+        "runtimes/ios/lib/net8.0/System.Data.Odbc.xml",
+        "runtimes/linux/lib/net6.0/System.Data.Odbc.dll",
+        "runtimes/linux/lib/net6.0/System.Data.Odbc.xml",
+        "runtimes/linux/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/linux/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/linux/lib/net8.0/System.Data.Odbc.dll",
+        "runtimes/linux/lib/net8.0/System.Data.Odbc.xml",
+        "runtimes/osx/lib/net6.0/System.Data.Odbc.dll",
+        "runtimes/osx/lib/net6.0/System.Data.Odbc.xml",
+        "runtimes/osx/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/osx/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/osx/lib/net8.0/System.Data.Odbc.dll",
+        "runtimes/osx/lib/net8.0/System.Data.Odbc.xml",
+        "runtimes/solaris/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/solaris/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/solaris/lib/net8.0/System.Data.Odbc.dll",
+        "runtimes/solaris/lib/net8.0/System.Data.Odbc.xml",
+        "runtimes/tvos/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/tvos/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/tvos/lib/net8.0/System.Data.Odbc.dll",
+        "runtimes/tvos/lib/net8.0/System.Data.Odbc.xml",
+        "runtimes/win/lib/net6.0/System.Data.Odbc.dll",
+        "runtimes/win/lib/net6.0/System.Data.Odbc.xml",
+        "runtimes/win/lib/net7.0/System.Data.Odbc.dll",
+        "runtimes/win/lib/net7.0/System.Data.Odbc.xml",
+        "runtimes/win/lib/net8.0/System.Data.Odbc.dll",
+        "runtimes/win/lib/net8.0/System.Data.Odbc.xml",
+        "system.data.odbc.8.0.0.nupkg.sha512",
+        "system.data.odbc.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Data.SqlClient/4.8.6": {
+      "sha512": "2Ij/LCaTQRyAi5lAv7UUTV9R2FobC8xN9mE0fXBZohum/xLl8IZVmE98Rq5ugQHjCgTBRKqpXRb4ORulRdA6Ig==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.8.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.SqlClient.dll",
+        "lib/net46/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.xml",
+        "lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "lib/netstandard1.2/System.Data.SqlClient.dll",
+        "lib/netstandard1.2/System.Data.SqlClient.xml",
+        "lib/netstandard1.3/System.Data.SqlClient.dll",
+        "lib/netstandard1.3/System.Data.SqlClient.xml",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.SqlClient.dll",
+        "ref/net46/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.xml",
+        "ref/netcoreapp2.1/System.Data.SqlClient.dll",
+        "ref/netcoreapp2.1/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/System.Data.SqlClient.dll",
+        "ref/netstandard1.2/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/System.Data.SqlClient.dll",
+        "ref/netstandard1.3/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard2.0/System.Data.SqlClient.dll",
+        "ref/netstandard2.0/System.Data.SqlClient.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/net451/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net46/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.xml",
+        "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.xml",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.xml",
+        "system.data.sqlclient.4.8.6.nupkg.sha512",
+        "system.data.sqlclient.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.IO.Packaging/8.0.0": {
+      "sha512": "8g1V4YRpdGAxFcK8v9OjuMdIOJSpF30Zb1JGicwVZhly3I994WFyBdV6mQEo8d3T+URQe55/M0U0eIH0Hts1bg==",
+      "type": "package",
+      "path": "system.io.packaging/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Packaging.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Packaging.targets",
+        "lib/net462/System.IO.Packaging.dll",
+        "lib/net462/System.IO.Packaging.xml",
+        "lib/net6.0/System.IO.Packaging.dll",
+        "lib/net6.0/System.IO.Packaging.xml",
+        "lib/net7.0/System.IO.Packaging.dll",
+        "lib/net7.0/System.IO.Packaging.xml",
+        "lib/net8.0/System.IO.Packaging.dll",
+        "lib/net8.0/System.IO.Packaging.xml",
+        "lib/netstandard2.0/System.IO.Packaging.dll",
+        "lib/netstandard2.0/System.IO.Packaging.xml",
+        "system.io.packaging.8.0.0.nupkg.sha512",
+        "system.io.packaging.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "sha512": "JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.xml",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.7.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Cryptography.Pkcs/8.0.1": {
+      "sha512": "CoCRHFym33aUSf/NtWSVSZa99dkd0Hm7OCZUxORBjRB16LNhIEOf8THPqzIYlvKM0nNDAPTRBa1FxEECrgaxxA==",
+      "type": "package",
+      "path": "system.security.cryptography.pkcs/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.Pkcs.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Pkcs.targets",
+        "lib/net462/System.Security.Cryptography.Pkcs.dll",
+        "lib/net462/System.Security.Cryptography.Pkcs.xml",
+        "lib/net6.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net6.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/net7.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net7.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/net8.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
+        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
+        "lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net6.0/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.xml",
+        "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll",
+        "runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.xml",
+        "system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+        "system.security.cryptography.pkcs.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Cryptography.Xml/8.0.2": {
+      "sha512": "aDM/wm0ZGEZ6ZYJLzgqjp2FZdHbDHh6/OmpGfb7AdZ105zYmPn/83JRU2xLIbwgoNz9U1SLUTJN0v5th3qmvjA==",
+      "type": "package",
+      "path": "system.security.cryptography.xml/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.Xml.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.Xml.targets",
+        "lib/net462/System.Security.Cryptography.Xml.dll",
+        "lib/net462/System.Security.Cryptography.Xml.xml",
+        "lib/net6.0/System.Security.Cryptography.Xml.dll",
+        "lib/net6.0/System.Security.Cryptography.Xml.xml",
+        "lib/net7.0/System.Security.Cryptography.Xml.dll",
+        "lib/net7.0/System.Security.Cryptography.Xml.xml",
+        "lib/net8.0/System.Security.Cryptography.Xml.dll",
+        "lib/net8.0/System.Security.Cryptography.Xml.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.Xml.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.Xml.xml",
+        "system.security.cryptography.xml.8.0.2.nupkg.sha512",
+        "system.security.cryptography.xml.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "sha512": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.xml",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.dll",
+        "ref/netcoreapp3.0/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.7.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ServiceModel.Http/8.1.2": {
+      "sha512": "2HoneRUCHB8kKQcuAladR16mIHuyi5f9DrrNnTjkaICv5X7YuwoI7GSrp9GTkRSxC4ddNcjMdwE01Rm0sPgoMw==",
+      "type": "package",
+      "path": "system.servicemodel.http/8.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.ServiceModel.Http.dll",
+        "lib/net462/System.ServiceModel.Http.pdb",
+        "lib/net8.0/System.ServiceModel.Http.dll",
+        "lib/net8.0/System.ServiceModel.Http.pdb",
+        "lib/net8.0/cs/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/de/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/es/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/fr/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/it/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/ja/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/ko/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/pl/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/pt-BR/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/ru/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/tr/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/zh-Hans/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/zh-Hant/System.ServiceModel.Http.resources.dll",
+        "lib/netstandard2.0/System.ServiceModel.Http.dll",
+        "lib/netstandard2.0/System.ServiceModel.Http.pdb",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/net462/System.ServiceModel.Http.dll",
+        "ref/net8.0/System.ServiceModel.Http.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/System.ServiceModel.Http.dll",
+        "system.servicemodel.http.8.1.2.nupkg.sha512",
+        "system.servicemodel.http.nuspec"
+      ]
+    },
+    "System.ServiceModel.NetFramingBase/8.1.2": {
+      "sha512": "XDNsiI4Lrv4scb10salZNbUDJNYj3Qm39KeN9uulKXbgcxF/fNC+hCrLDAhNz/rIqxOeRB/JCfQ4A/Ha0hFAWg==",
+      "type": "package",
+      "path": "system.servicemodel.netframingbase/8.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/System.ServiceModel.NetFramingBase.dll",
+        "lib/net8.0/System.ServiceModel.NetFramingBase.pdb",
+        "lib/net8.0/cs/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/de/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/es/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/fr/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/it/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/ja/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/ko/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/pl/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/pt-BR/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/ru/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/tr/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/zh-Hans/System.ServiceModel.NetFramingBase.resources.dll",
+        "lib/net8.0/zh-Hant/System.ServiceModel.NetFramingBase.resources.dll",
+        "ref/net8.0/System.ServiceModel.NetFramingBase.dll",
+        "system.servicemodel.netframingbase.8.1.2.nupkg.sha512",
+        "system.servicemodel.netframingbase.nuspec"
+      ]
+    },
+    "System.ServiceModel.NetTcp/8.1.2": {
+      "sha512": "+H4KpATeOPxGfl8JlMpv+a7h6ZIItIhHXJRr+0/KKAP49TjHXybaNwFrUbpasAMVE+D+8M96GxRevzcqvahfAQ==",
+      "type": "package",
+      "path": "system.servicemodel.nettcp/8.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.ServiceModel.NetTcp.dll",
+        "lib/net462/System.ServiceModel.NetTcp.pdb",
+        "lib/net8.0/System.ServiceModel.NetTcp.dll",
+        "lib/net8.0/System.ServiceModel.NetTcp.pdb",
+        "lib/net8.0/cs/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/de/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/es/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/fr/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/it/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/ja/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/ko/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/pl/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/pt-BR/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/ru/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/tr/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/zh-Hans/System.ServiceModel.NetTcp.resources.dll",
+        "lib/net8.0/zh-Hant/System.ServiceModel.NetTcp.resources.dll",
+        "lib/netstandard2.0/System.ServiceModel.NetTcp.dll",
+        "lib/netstandard2.0/System.ServiceModel.NetTcp.pdb",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/net462/System.ServiceModel.NetTcp.dll",
+        "ref/net8.0/System.ServiceModel.NetTcp.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/System.ServiceModel.NetTcp.dll",
+        "system.servicemodel.nettcp.8.1.2.nupkg.sha512",
+        "system.servicemodel.nettcp.nuspec"
+      ]
+    },
+    "System.ServiceModel.Primitives/8.1.2": {
+      "sha512": "xlJ07FAUSDjPL/GhvVY1/KVPWn2ce056X4nHPwqAa5rkNLiNN5rqh6VcgMUoF6J7ckwhkVJ1vVx/K/47nyyR9g==",
+      "type": "package",
+      "path": "system.servicemodel.primitives/8.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.ServiceModel.Duplex.dll",
+        "lib/net462/System.ServiceModel.Duplex.pdb",
+        "lib/net462/System.ServiceModel.Primitives.dll",
+        "lib/net462/System.ServiceModel.Primitives.pdb",
+        "lib/net462/System.ServiceModel.Security.dll",
+        "lib/net462/System.ServiceModel.Security.pdb",
+        "lib/net8.0/System.ServiceModel.Duplex.dll",
+        "lib/net8.0/System.ServiceModel.Duplex.pdb",
+        "lib/net8.0/System.ServiceModel.Primitives.dll",
+        "lib/net8.0/System.ServiceModel.Primitives.pdb",
+        "lib/net8.0/System.ServiceModel.Security.dll",
+        "lib/net8.0/System.ServiceModel.Security.pdb",
+        "lib/net8.0/System.ServiceModel.dll",
+        "lib/net8.0/System.ServiceModel.pdb",
+        "lib/net8.0/cs/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/de/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/es/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/fr/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/it/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/ja/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/ko/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/pl/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/pt-BR/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/ru/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/tr/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/zh-Hans/System.ServiceModel.Primitives.resources.dll",
+        "lib/net8.0/zh-Hant/System.ServiceModel.Primitives.resources.dll",
+        "lib/netstandard2.0/System.ServiceModel.Duplex.dll",
+        "lib/netstandard2.0/System.ServiceModel.Duplex.pdb",
+        "lib/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "lib/netstandard2.0/System.ServiceModel.Primitives.pdb",
+        "lib/netstandard2.0/System.ServiceModel.Security.dll",
+        "lib/netstandard2.0/System.ServiceModel.Security.pdb",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/net462/System.ServiceModel.Duplex.dll",
+        "ref/net462/System.ServiceModel.Primitives.dll",
+        "ref/net462/System.ServiceModel.Security.dll",
+        "ref/net8.0/System.ServiceModel.Duplex.dll",
+        "ref/net8.0/System.ServiceModel.Primitives.dll",
+        "ref/net8.0/System.ServiceModel.Security.dll",
+        "ref/net8.0/System.ServiceModel.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/System.ServiceModel.Duplex.dll",
+        "ref/netstandard2.0/System.ServiceModel.Primitives.dll",
+        "ref/netstandard2.0/System.ServiceModel.Security.dll",
+        "system.servicemodel.primitives.8.1.2.nupkg.sha512",
+        "system.servicemodel.primitives.nuspec"
+      ]
+    },
+    "System.Text.Encoding.CodePages/8.0.0": {
+      "sha512": "OZIsVplFGaVY90G2SbpgU7EnCoOO5pw1t4ic21dBF3/1omrJFpAGoNAVpPyMVOC90/hvgkGG3VFqR13YgZMQfg==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encoding.CodePages.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encoding.CodePages.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Text.Encoding.CodePages.dll",
+        "lib/net462/System.Text.Encoding.CodePages.xml",
+        "lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "lib/net7.0/System.Text.Encoding.CodePages.dll",
+        "lib/net7.0/System.Text.Encoding.CodePages.xml",
+        "lib/net8.0/System.Text.Encoding.CodePages.dll",
+        "lib/net8.0/System.Text.Encoding.CodePages.xml",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.xml",
+        "system.text.encoding.codepages.8.0.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "DnsClient >= 1.8.0",
+      "DocumentFormat.OpenXml >= 3.1.0",
+      "Microsoft.Extensions.ApiDescription.Client >= 7.0.2",
+      "NSwag.ApiDescription.Client >= 13.18.2",
+      "Newtonsoft.Json >= 13.0.3",
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "System.Data.Odbc >= 8.0.0",
+      "System.Data.SqlClient >= 4.8.6",
+      "System.ServiceModel.Http >= 8.*",
+      "System.ServiceModel.NetTcp >= 8.*",
+      "System.ServiceModel.Primitives >= 8.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\drorc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "L:\\Users\\Luba\\App03092023\\VS2022\\journeyAppVSCODE\\journeyService\\journeyService.csproj",
+      "projectName": "journeyService",
+      "projectPath": "L:\\Users\\Luba\\App03092023\\VS2022\\journeyAppVSCODE\\journeyService\\journeyService.csproj",
+      "packagesPath": "C:\\Users\\drorc\\.nuget\\packages\\",
+      "outputPath": "L:\\Users\\Luba\\App03092023\\VS2022\\journeyAppVSCODE\\journeyService\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\drorc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "DnsClient": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "DocumentFormat.OpenXml": {
+            "target": "Package",
+            "version": "[3.1.0, )"
+          },
+          "Microsoft.Extensions.ApiDescription.Client": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.2, )"
+          },
+          "NSwag.ApiDescription.Client": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[13.18.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.4.0, )"
+          },
+          "System.Data.Odbc": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.8.6, )"
+          },
+          "System.ServiceModel.Http": {
+            "target": "Package",
+            "version": "[8.*, )"
+          },
+          "System.ServiceModel.NetTcp": {
+            "target": "Package",
+            "version": "[8.*, )"
+          },
+          "System.ServiceModel.Primitives": {
+            "target": "Package",
+            "version": "[8.*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
